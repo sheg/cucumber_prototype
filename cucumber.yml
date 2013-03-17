@@ -1,8 +1,3 @@
-default: --no-source --color --format pretty
-prod: --no-source --format pretty --tags @prod
-staging: --no-source --format pretty --tags @staging 
-in_progress: --no-source --format pretty --tags @in_progress
-prod_html: --no-source --format html --tags @prod --out results/output_prod.html
-staging_html: --no-source --format html --tags @staging --out results/output_staging.html
-
-dev: FIG_NEWTON_FILE=buddy_dev.yml --no-source --format pretty --tags @prod
+dev: FIG_NEWTON_FILE=buddy_dev.yml --no-source --format pretty --tags @dev
+stage: FIG_NEWTON_FILE=buddy_stage.yml --no-source --format pretty --tags @stage
+prod: FIG_NEWTON_FILE=buddy_prod.yml --no-source --format pretty --tags @prod

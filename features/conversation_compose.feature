@@ -1,4 +1,4 @@
-@staging
+@dev
 Feature: Compose Post
   As a Conversation Buddy user
   I would like to submit a post to Facebook using a drop down modal

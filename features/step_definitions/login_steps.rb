@@ -8,7 +8,7 @@ When(/^I submit the login form with valid credentials$/) do
 end
 
 When(/^I submit the login form with invalid email$/) do
-  on_page(LoginPage).input_login_credentials(:email => 'iamfake@fake.com')
+  on_page(LoginPage).input_login_credentials('iamfake@fake.com')
   on_page(LoginPage).signin
 end
 
