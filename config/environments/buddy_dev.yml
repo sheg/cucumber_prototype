@@ -1,1 +1,5 @@
 base_url: http://dev--platform-dev-rpati.dev.buddymedia.com
+
+login:
+  email: dforkosh@salesforce.com
+  password: Rice8080$
