@@ -9,5 +9,4 @@ module GlobalNav
   link(:buy_buddy_tab, :text => 'BuyBuddy')
   link(:analytics_tab, :text => 'Analytics')
   div(:utility_nav, :id => 'utility_nav')
-
 end

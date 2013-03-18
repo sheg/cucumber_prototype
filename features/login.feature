@@ -7,6 +7,7 @@ Feature: Login
 Background:
   Given I am on the login page
 
+@in_progress
 Scenario: log in successfully
   When I submit the login form with valid credentials
   Then I should be logged into the application
