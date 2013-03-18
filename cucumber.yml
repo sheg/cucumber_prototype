@@ -1,5 +1,4 @@
 dev: FIG_NEWTON_FILE=buddy_dev.yml --no-source --format pretty --tags @dev
 stage: FIG_NEWTON_FILE=buddy_stage.yml --no-source --format pretty --tags @stage
 prod: FIG_NEWTON_FILE=buddy_prod.yml --no-source --format pretty --tags @prod
-
 in_progress: FIG_NEWTON_FILE=buddy_dev.yml --no-source --format pretty --tags @in_progress

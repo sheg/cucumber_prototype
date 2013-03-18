@@ -17,5 +17,5 @@ Then(/^I should see the following error message "(.*?)"$/) do |error_message|
 end
 
 Then(/^I should be logged into the application$/) do
-  on_page(DashboardPage).utility_nav_element.visible?.should be_true #needs to be more specific
+  on_page(DashboardPage).first_name_element.visible?.should be_true
 end
