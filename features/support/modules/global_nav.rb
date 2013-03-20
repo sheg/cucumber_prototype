@@ -10,4 +10,5 @@ module GlobalNav
   link(:analytics_tab, :text => 'Analytics')
   div(:utility_nav, :id => 'utility_nav')
   span(:first_name, :class => 'fname')
+
 end
