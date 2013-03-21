@@ -1,0 +1,72 @@
+2013-03-18 18:19:46,638 - sauce_connect:0 - INFO - Request started: GET https://rtm.dev.buddymedia.com/socket.io/1/xhr-polling/WpvemoUbhxFzNOA2WHiM?userId=2160&timestamp=1363645178&signature=ab5ff79ec847b33efc8be82333a74542694a38e2&t=1363645185151
+2013-03-18 18:19:46,687 - sauce_connect:0 - INFO - GET https://rtm.dev.buddymedia.com/socket.io/1/xhr-polling/WpvemoUbhxFzNOA2WHiM?userId=2160&timestamp=1363645178&signature=ab5ff79ec847b33efc8be82333a74542694a38e2&t=1363645185151 -> 200 (50ms, 3 bytes)
+2013-03-18 18:19:46,789 - sauce_connect:0 - INFO - Request started: POST https://rtm.dev.buddymedia.com/socket.io/1/xhr-polling/WpvemoUbhxFzNOA2WHiM?userId=2160&timestamp=1363645178&signature=ab5ff79ec847b33efc8be82333a74542694a38e2&t=1363645185314
+2013-03-18 18:19:46,795 - sauce_connect:0 - INFO - Request started: GET https://rtm.dev.buddymedia.com/socket.io/1/xhr-polling/WpvemoUbhxFzNOA2WHiM?userId=2160&timestamp=1363645178&signature=ab5ff79ec847b33efc8be82333a74542694a38e2&t=1363645185315
+2013-03-18 18:19:46,805 - sauce_connect:0 - INFO - POST https://rtm.dev.buddymedia.com/socket.io/1/xhr-polling/WpvemoUbhxFzNOA2WHiM?userId=2160&timestamp=1363645178&signature=ab5ff79ec847b33efc8be82333a74542694a38e2&t=1363645185314 -> 200 (16ms, 1 bytes)
+2013-03-18 18:19:49,342 - sauce_connect:0 - INFO - Request started: GET http://dev--platform-dev-rpati.dev.buddymedia.com/js/fuxd-widget.js?cache_buster=1363645179931
+2013-03-18 18:19:49,378 - sauce_connect:0 - INFO - GET http://dev--platform-dev-rpati.dev.buddymedia.com/js/fuxd-widget.js?cache_buster=1363645179931 -> 200 (37ms, 6960 bytes)
+2013-03-18 18:19:49,421 - sauce_connect:0 - INFO - Request started: GET http://dev--platform-dev-rpati.dev.buddymedia.com/images/secret.png
+2013-03-18 18:19:49,448 - sauce_connect:0 - INFO - GET http://dev--platform-dev-rpati.dev.buddymedia.com/images/secret.png -> 404 (29ms, 3892 bytes)
+2013-03-18 18:19:56,168 - sauce_connect:0 - INFO - Request started: GET http://dev--platform-dev-rpati.dev.buddymedia.com/conversationbuddy/ajax/profiles?q=AutomatedTesting&geo=true&limit=50&distribution_list=true&can_publish=true&privilege=author.post
+2013-03-18 18:19:57,482 - sauce_connect:0 - INFO - GET http://dev--platform-dev-rpati.dev.buddymedia.com/conversationbuddy/ajax/profiles?q=AutomatedTesting&geo=true&limit=50&distribution_list=true&can_publish=true&privilege=author.post -> 200 (1313ms, 247 bytes)
+2013-03-18 18:19:58,549 - sauce_connect:0 - INFO - GET https://rtm.dev.buddymedia.com/socket.io/1/xhr-polling/e3y6Hce59sUu57CfWHiH?userId=2160&timestamp=1363645089&signature=d51bef400dfa74eda11a14d8b06d350b2b440193&t=1363645176578 -> 200 (20026ms, 3 bytes)
+2013-03-18 18:19:58,967 - sauce_connect:0 - INFO - GET https://rtm.dev.buddymedia.com/socket.io/1/xhr-polling/cvr8ZzIjgSFDfdn7WHiL?userId=2160&timestamp=1363645167&signature=c92ca261428f8f549d5d07b7cca8ea4ba4e50522&t=1363645177399 -> 200 (20014ms, 3 bytes)
+2013-03-18 18:20:06,832 - sauce_connect:0 - INFO - GET https://rtm.dev.buddymedia.com/socket.io/1/xhr-polling/WpvemoUbhxFzNOA2WHiM?userId=2160&timestamp=1363645178&signature=ab5ff79ec847b33efc8be82333a74542694a38e2&t=1363645185315 -> 200 (20037ms, 3 bytes)
+2013-03-18 18:20:07,165 - sauce_connect:0 - INFO - Request started: GET https://rtm.dev.buddymedia.com/socket.io/1/xhr-polling/WpvemoUbhxFzNOA2WHiM?userId=2160&timestamp=1363645178&signature=ab5ff79ec847b33efc8be82333a74542694a38e2&t=1363645205628
+2013-03-18 18:20:27,181 - sauce_connect:0 - INFO - GET https://rtm.dev.buddymedia.com/socket.io/1/xhr-polling/WpvemoUbhxFzNOA2WHiM?userId=2160&timestamp=1363645178&signature=ab5ff79ec847b33efc8be82333a74542694a38e2&t=1363645205628 -> 200 (20015ms, 3 bytes)
+2013-03-18 18:20:27,338 - sauce_connect:0 - INFO - Request started: GET https://rtm.dev.buddymedia.com/socket.io/1/xhr-polling/WpvemoUbhxFzNOA2WHiM?userId=2160&timestamp=1363645178&signature=ab5ff79ec847b33efc8be82333a74542694a38e2&t=1363645225803
+2013-03-18 18:20:43,016 - sauce_connect:0 - INFO - Request started: GET http://dev--platform-dev-rpati.dev.buddymedia.com/conversationbuddy/ajax/stream_count?filter[scheduled]=1&filter[deleted]=0&filter[posted]=0&filter[errors]=0
+2013-03-18 18:20:43,095 - sauce_connect:0 - INFO - Request started: GET http://dev--platform-dev-rpati.dev.buddymedia.com/conversationbuddy/ajax/stream_count?filter[scheduled]=0&filter[deleted]=0&filter[flagged]=1
+2013-03-18 18:20:43,730 - sauce_connect:0 - INFO - GET http://dev--platform-dev-rpati.dev.buddymedia.com/conversationbuddy/ajax/stream_count?filter[scheduled]=1&filter[deleted]=0&filter[posted]=0&filter[errors]=0 -> 200 (716ms, 2 bytes)
+2013-03-18 18:20:43,765 - sauce_connect:0 - INFO - GET http://dev--platform-dev-rpati.dev.buddymedia.com/conversationbuddy/ajax/stream_count?filter[scheduled]=0&filter[deleted]=0&filter[flagged]=1 -> 200 (670ms, 2 bytes)
+2013-03-18 18:20:47,351 - sauce_connect:0 - INFO - GET https://rtm.dev.buddymedia.com/socket.io/1/xhr-polling/WpvemoUbhxFzNOA2WHiM?userId=2160&timestamp=1363645178&signature=ab5ff79ec847b33efc8be82333a74542694a38e2&t=1363645225803 -> 200 (20014ms, 3 bytes)
+2013-03-18 18:20:47,473 - sauce_connect:0 - INFO - Request started: GET https://rtm.dev.buddymedia.com/socket.io/1/xhr-polling/WpvemoUbhxFzNOA2WHiM?userId=2160&timestamp=1363645178&signature=ab5ff79ec847b33efc8be82333a74542694a38e2&t=1363645245994
+2013-03-18 18:21:05,480 - sauce_connect:0 - INFO - Sauce Connect connection stalled! 214/216 acks, 3220ms since last recv, 2158ms timeout exceeded, min ack: 78
+2013-03-18 18:21:05,483 - sauce_connect:0 - INFO - disconnected from Sauce Connect server
+2013-03-18 18:21:05,484 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2013-03-18 18:21:21,447 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2013-03-18 18:21:21,450 - sauce_connect:0 - INFO - Connection failed
+2013-03-18 18:21:26,019 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2013-03-18 18:21:26,020 - sauce_connect:0 - INFO - IOException: java.net.SocketException: Network is down
+2013-03-18 18:21:27,088 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2013-03-18 18:21:27,089 - sauce_connect:0 - INFO - IOException: java.net.BindException: Can't assign requested address
+2013-03-18 18:21:28,588 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2013-03-19 09:23:03,092 - sauce_connect:0 - INFO - Sauce Connect connection stalled! 0/1 acks, 54094505ms since last recv, 5000ms timeout exceeded, min ack: 5000
+2013-03-19 09:23:03,102 - sauce_connect:0 - INFO - disconnected from Sauce Connect server
+2013-03-19 09:23:03,104 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2013-03-19 09:23:04,190 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2013-03-19 09:23:04,190 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2013-03-19 09:23:05,289 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2013-03-19 09:23:05,290 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2013-03-19 09:23:06,388 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2013-03-19 09:23:06,388 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2013-03-19 09:23:07,487 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2013-03-19 09:23:07,489 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2013-03-19 09:23:08,588 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2013-03-19 09:23:08,589 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2013-03-19 09:23:09,687 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2013-03-19 09:23:09,688 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2013-03-19 09:23:10,789 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2013-03-19 09:23:10,789 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2013-03-19 09:23:11,888 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2013-03-19 09:23:11,888 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2013-03-19 09:23:12,986 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2013-03-19 09:23:12,989 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2013-03-19 09:23:14,088 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2013-03-19 09:23:14,091 - sauce_connect:0 - INFO - Couldn't resolve Sauce Connect server address
+2013-03-19 09:23:16,111 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2013-03-19 09:23:16,112 - sauce_connect:0 - INFO - resending 2 packets
+2013-03-19 09:23:16,207 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: 4e6be2c04eb14b5cb69c24b154f49c23
+2013-03-19 09:31:26,260 - sauce_connect:0 - INFO - IOException: java.io.IOException: Network is unreachable
+2013-03-19 09:31:26,263 - sauce_connect:0 - INFO - disconnected from Sauce Connect server
+2013-03-19 09:31:26,263 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2013-03-19 09:31:26,411 - sauce_connect:0 - INFO - old keepalive timer shutting down
+2013-03-19 09:31:27,723 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2013-03-19 09:31:27,724 - sauce_connect:0 - INFO - resending 1 packets
+2013-03-19 09:31:27,813 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: 4e6be2c04eb14b5cb69c24b154f49c23
+2013-03-19 09:34:33,325 - sauce_connect:0 - INFO - Sauce Connect connection stalled! 167/169 acks, 3208ms since last recv, 2183ms timeout exceeded, min ack: 91
+2013-03-19 09:34:33,326 - sauce_connect:0 - INFO - disconnected from Sauce Connect server
+2013-03-19 09:34:33,328 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2013-03-19 09:34:34,753 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2013-03-19 09:34:34,756 - sauce_connect:0 - INFO - resending 1 packets
+2013-03-19 09:34:34,832 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: 4e6be2c04eb14b5cb69c24b154f49c23
