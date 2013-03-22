@@ -17,4 +17,6 @@ cucumber_prototype
 > > * e.g. cucumber -p dev
 
 > #Execute any feature file
+> * cucumber -r features <feature_path>
 > * e.g. cucumber -r features/ features/login/login.feature 
+>
