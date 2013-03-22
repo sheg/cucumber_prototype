@@ -36,3 +36,23 @@ end
 Then(/^the following error message should be present "(.*?)"$/) do |error_message|
   on_page(ConversationComposeMessage).error_messages.should include error_message
 end
+
+When /^I complete the compose message form using an empty profile$/ do
+  on_page(ConversationComposeMessage).complete_message_form('profile_name' => '')
+  on_page(ConversationComposeMessage).publish
+end
+
+When /^I complete the compose message form using an empty profile and message$/ do
+  on_page(ConversationComposeMessage).complete_message_form('profile_name' => '', 'message' => '')
+  on_page(ConversationComposeMessage).publish
+end
+
+When /^the following error messages should be present:$/ do |error_table|
+  error_table.hashes.each do |error|
+    on_page(ConversationComposeMessage).error_messages.should include error['error_message']
+  end
+end
+
+Then /^there should be two errors present$/ do
+  on_page(ConversationComposeMessage).error_messages.split(/\n/).size.should == 2
+end

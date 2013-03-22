@@ -20,7 +20,9 @@ class ConversationComposeMessage
   def add_profile(profile_name)
     self.profile_element.when_visible
     self.profile = profile_name
-    self.profile_name_drop_down_element.when_visible(timeout = 10).click
+    if profile_name != ''
+      self.profile_name_drop_down_element.when_visible(timeout = 10).click
+    end
   end
 
   def add_message(message)

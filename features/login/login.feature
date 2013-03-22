@@ -1,4 +1,4 @@
-@prod
+@prod @stage @dev
 Feature: Login
   As a customer
   I would like to go through an authentication process

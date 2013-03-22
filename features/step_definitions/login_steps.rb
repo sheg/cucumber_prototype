@@ -17,5 +17,5 @@ Then(/^I should see the following error message "(.*?)"$/) do |error_message|
 end
 
 Then(/^I should be logged into the application$/) do
-  on_page(DashboardPage).first_name_element.visible?.should be_true
+  on_page(DashboardPage).first_name_element.visible?.should be_true, 'Could not see the first_name element in the nav bar'
 end
