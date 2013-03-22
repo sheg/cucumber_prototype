@@ -15,3 +15,14 @@ Scenario: Successfully submit post
 Scenario: Submit post with empty message
   When I complete the compose message form using an empty message
   Then the following error message should be present "A message is required"
+
+
+@prod
+Scenario: Successfully submit post
+  When I complete the compose message form successfully using the profile name "FBpagetest"
+  Then the following message should appear "Your message was successfully composed"
+
+@prod
+Scenario: Submit post with empty message
+  When I complete the compose message form successfully using the profile name "FBpagetest" and an empty message
+  Then the following error message should be present "A message is required"
