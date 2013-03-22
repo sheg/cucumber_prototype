@@ -4,7 +4,6 @@ require 'yaml'
 Before do |scenario|
 
   if ENV['SAUCE']
-    @browser.driver.window.move_to
     filename = File.expand_path("../../../config/sauce_creds.yml", __FILE__)
     sauce_config = YAML::load(File.open(filename))
     case sauce_config[:browser]
@@ -13,6 +12,7 @@ Before do |scenario|
         caps[:platform] = sauce_config[:platform]
         caps[:version] = sauce_config[:firefox_version]
     end
+
     caps[:name] = scenario.title
     @browser = Watir::Browser.new(
         :remote,

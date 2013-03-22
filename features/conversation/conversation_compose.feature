@@ -19,10 +19,10 @@ Scenario: Submit post with empty message
 
 @prod
 Scenario: Successfully submit post
-  When I complete the compose message form successfully using the profile name "FBpagetest"
+  When I complete the compose message form successfully using the profile name "JMSports"
   Then the following message should appear "Your message was successfully composed"
 
 @prod
 Scenario: Submit post with empty message
-  When I complete the compose message form successfully using the profile name "FBpagetest" and an empty message
+  When I complete the compose message form successfully using the profile name "JMSports" and an empty message
   Then the following error message should be present "A message is required"
