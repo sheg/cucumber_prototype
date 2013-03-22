@@ -14,6 +14,16 @@ When(/^I complete the compose message form successfully$/) do
   on_page(ConversationComposeMessage).publish
 end
 
+When(/^I complete the compose message form successfully using the profile name "(.*?)"$/) do |profile_name|
+  on_page(ConversationComposeMessage).complete_message_form('profile_name' => profile_name)
+  on_page(ConversationComposeMessage).publish
+end
+
+When(/^I complete the compose message form successfully using the profile name "(.*?)" and an empty message$/) do |profile_name|
+  on_page(ConversationComposeMessage).complete_message_form('profile_name' => profile_name, 'message' => '')
+  on_page(ConversationComposeMessage).publish
+end
+
 Then(/^the following message should appear "(.*?)"$/) do |expected_message|
   on_page(ConversationDashboard).success_message_element.when_visible.text.should include expected_message
 end

@@ -1,5 +1,5 @@
-#base_url: https://channel.stg.buddymedia.com
+base_url: https://techchannel.buddymedia.com/
 
-#login:
-#  email: staging_auto@salesforce.com
-#  password: p@ssw0rd123
+login:
+  email: dforkosh@salesforce.com
+  password: p@ssw0rd
