@@ -1,12 +1,11 @@
 cucumber_prototype
 ==================
 
-Setup
-------------------
-
-1) Install rvm and ruby
-2) gem install bundler
-3) bundle install
+> #Setup
+> 1) Install rvm and ruby
+> 2) gem install bundler
+> 3) bundle install
+>
 
 Execution:
 
