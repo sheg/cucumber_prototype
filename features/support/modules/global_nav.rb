@@ -9,6 +9,18 @@ module GlobalNav
   link(:buy_buddy_tab, :text => 'BuyBuddy')
   link(:analytics_tab, :text => 'Analytics')
   div(:utility_nav, :id => 'utility_nav')
-  span(:first_name, :class => 'fname')
+  span(:username_dropdown_button, :class => 'ui-icon ui-icon-triangle-1-s')
+  div(:user_dropdown, :id => 'user_dropdown')
+  link(:logout, :href => '/login/x_logout')
 
+
+  def open_username_dropdown
+    username_dropdown_button_element.click
+    user_dropdown_element.when_visible
+  end
+
+  def click_dropdown_logout
+    logout_element.when_visible
+    logout
+  end
 end

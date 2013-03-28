@@ -9,7 +9,7 @@ module ConversationNav
   
   def open_compose_modal
     @browser.driver.manage.window.maximize
-    outbox_number_element.when_visible
+    outbox_number_element.when_visible(timeout=10)
     compose_element.when_visible.click
   end
 end

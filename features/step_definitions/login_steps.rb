@@ -1,5 +1,4 @@
-Given(/^I am on the login page$/) do
-  #@browser.cookies.delete('lpsession') #remove session cookie if it's there - single browser implementation
+Given /^I navigate to the login page$/ do
   visit_page(LoginPage)
 end
 
@@ -18,5 +17,13 @@ Then(/^I should see the following error message "(.*?)"$/) do |error_message|
 end
 
 Then(/^I should be logged into the application$/) do
-  on_page(DashboardPage).first_name_element.visible?.should be_true, 'Could not see the first_name element in the nav bar'
+  on_page(DashboardPage).username_dropdown_button?.should be_true, 'Could not see the first_name element in the nav bar'
+end
+When /^I click the logout button$/ do
+  on_page(DashboardPage).open_username_dropdown
+  on_page(DashboardPage).click_dropdown_logout
+end
+
+Then(/^I am on the login page$/) do
+  on_page(LoginPage).email?.should be_true
 end
