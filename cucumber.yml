@@ -1,12 +1,16 @@
-default: FIG_NEWTON_FILE=buddy_dev.yml --no-source --format pretty
+default: FIG_NEWTON_FILE=buddy_prod.yml --no-source --format pretty
 
 dev: FIG_NEWTON_FILE=buddy_dev.yml --no-source --format pretty --tags @dev
 stage: FIG_NEWTON_FILE=buddy_stage.yml --no-source --format pretty --tags @stage
 prod: FIG_NEWTON_FILE=buddy_prod.yml --no-source --format pretty --tags @prod
 
-wip: FIG_NEWTON_FILE=buddy_dev.yml --no-source --format pretty --tags @wip
+wip_dev: FIG_NEWTON_FILE=buddy_dev.yml --no-source --format pretty --tags @wip
 wip_stage: FIG_NEWTON_FILE=buddy_stage.yml --no-source --format pretty --tags @wip
 wip_prod: FIG_NEWTON_FILE=buddy_prod.yml --no-source --format pretty --tags @wip
+
+all_ready_dev: FIG_NEWTON_FILE=buddy_dev.yml --no-source --format pretty --tags ~@wip
+all_ready_stage: FIG_NEWTON_FILE=buddy_stage.yml --no-source --format pretty --tags ~@wip
+all_ready_prod: FIG_NEWTON_FILE=buddy_prod.yml --no-source --format pretty --tags ~@wip
 
 jenkins_dev: FIG_NEWTON_FILE=buddy_dev.yml --format json --out results/results.json --tags @dev
 jenkins_stage: FIG_NEWTON_FILE=buddy_stage.yml --format json --out results/results.json --tags @stage

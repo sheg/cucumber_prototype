@@ -1,5 +1,6 @@
-:username: dforkosh
-:access_key: b49e8094-8876-4a5e-96ea-3c98bf9e8576
-:browser: chrome
-:platform: 'Mac 10.6'
+:username: btrtestams
+:access_key: 56f2fdb4-9984-43c9-8314-8d65353c90db
+:browser: firefox
+#:platform: 'Mac 10.6'
+:platform: 'Windows 2012'
 :version: '18'
