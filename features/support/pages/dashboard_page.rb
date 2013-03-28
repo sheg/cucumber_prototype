@@ -3,4 +3,6 @@ class DashboardPage
   include DataMagic
   include GlobalNav
 
+  link(:welcome_tab, :link_text => 'Welcome')
+
 end

@@ -1,4 +1,5 @@
 Given(/^I am on the login page$/) do
+  #@browser.cookies.delete('lpsession') #remove session cookie if it's there - single browser implementation
   visit_page(LoginPage)
 end
 

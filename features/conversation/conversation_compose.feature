@@ -1,4 +1,3 @@
-@dev
 Feature: Compose Post
   As a Conversation Buddy user
   I would like to submit a post to Facebook using a drop down modal
@@ -8,7 +7,7 @@ Background:
   Given I am on the Conversation Buddy tab
   When I click on the compose message button
 
-Scenario: Successfully submit post message
+Scenario: Successfully submit post with message only
   When I complete the compose message form successfully
   Then the following message should appear "Your message was successfully composed"
 
@@ -16,6 +15,7 @@ Scenario: Submit post with empty message
   When I complete the compose message form using an empty message
   Then the following error message should be present "A message is required"
 
+@prod
 Scenario: Submit post with empty profile
   When I complete the compose message form using an empty profile
   Then the following error message should be present "You must select at least one profile"
@@ -31,7 +31,7 @@ Scenario: Submit post with empty profile and message
   |You must select at least one profile|
 
 @prod
-Scenario: Successfully submit post using JMSports
+Scenario: Successfully submit post with message only using JMSports
   When I complete the compose message form successfully using the profile name "JMSports"
   Then the following message should appear "Your message was successfully composed"
 
@@ -39,3 +39,4 @@ Scenario: Successfully submit post using JMSports
 Scenario: Submit post with empty message using JMSports
   When I complete the compose message form successfully using the profile name "JMSports" and an empty message
   Then the following error message should be present "A message is required"
+
